@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width:40%;
+  margin:100px auto;
+  background-color: #ddd;
+  border: 1px solid #000; 
+}
+
+.select-box{
+  width:300px;
+  padding:10px;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  color:#333;
+}
+
+.select-box option {
+  padding: 8px;
+}
+
+.select-box:hover {
+  border-color: #007bff; /* Example color change on hover */
+}
